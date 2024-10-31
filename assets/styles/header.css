@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 10px 8%;
+  background-color: #60a5fa;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  width: 210px;
+  height: 90px;
+  position: relative;
+  bottom: 10px;
+}
+
+#nav_list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.nav-item a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-family: "JetBrains Mono";
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.nav-item a:hover {
+  color: #0369a1;
+}
+
+.nav-item a::after {
+  content: "";
+  position: absolute;
+  background-color: #0369a1;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+  transition: width 0.3s ease;
+}
+
+.nav-item a:hover::after {
+  width: 100%;
+  color: #0369a1;
+}
