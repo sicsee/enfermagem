@@ -1,13 +1,25 @@
 .Parte-1, .Parte-2, .Parte-3 {
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 0 20px 20px 20px;
+    margin: 0 100px 20px 100px;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-h2 {
+.Parte-1 {
+    padding-top: 120px;
+}
+
+.title {
     color: #ee0a0a;
+    font-size: 25px;
+    font-family: 'JetBrains Mono';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 50px;
 }
 
 ul {
@@ -16,34 +28,35 @@ ul {
 }
 
 footer {
-    text-align: center;
+    display: flex;
     margin-top: 20px;
-    font-size: 0.8em;
+    font-size: 16px;
     padding: 10px 0;
     background: #ee0a0a;
     color: white;
-}
-
-li {
-    padding-top: 15px;
-}
-.imgV1{
-    
-    padding-top: 75px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
 }
 
 
-.TextV1 {
+.Texto {
     width: 700px;
-    margin-left: 25px;
-}
-h2{
- padding: 10px 50px;
+    font-family: "Poppins";
+    font-size: 16px;
+    text-align: justify;
 }
 
-.imgV2{
-    padding-top: 100px;
-    border-radius: 10px;
-    border-image: 10px;
+.Parte-3 {
+    align-items: center;
+    gap: 100px;
+}
 
+img {
+    border-radius: 15px;
+}
+
+.Parte-3 img {
+    width: 250px;
 }
