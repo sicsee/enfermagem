@@ -1,5 +1,6 @@
 #inicio {
   padding: 15px 8%;
+  padding-top: 150px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -7,7 +8,7 @@
 
 #inicio h1 {
   font-size: 36px;
-  color: #60a5fa;
+  color: #ff824b;
   font-family: "JetBrains Mono";
   text-transform: uppercase;
 }
@@ -51,11 +52,4 @@
   width: 1020px;
   text-align: justify;
   margin-left: 80px;
-}
-
-.sub-title {
-  color: #60a5fa;
-  font-size: 25px;
-  font-family: "JetBrains Monos";
-  text-transform: uppercase;
 }

@@ -12,6 +12,7 @@ header {
   width: 100%;
   padding: 10px 8%;
   background-color: #60a5fa;
+  position: fixed;
 }
 
 #navbar {
@@ -64,3 +65,4 @@ header {
   width: 100%;
   color: #0369a1;
 }
+
